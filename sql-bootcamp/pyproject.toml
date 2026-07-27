@@ -1,0 +1,18 @@
+[project]
+name = "sql-bootcamp"
+version = "1.0.0"
+description = "SQL Zero to Hero Bootcamp - learn and practice SQL in Jupyter notebooks using SQLite and JupySQL"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupysql>=0.10.0",
+    "sqlalchemy>=2.0.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "ipykernel>=6.29.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+]
+
+[tool.uv]
+package = false
