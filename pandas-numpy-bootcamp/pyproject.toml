@@ -1,0 +1,21 @@
+[project]
+name = "pandas-numpy-bootcamp"
+version = "1.0.0"
+description = "pandas & NumPy Zero to Hero Bootcamp (Data Engineering focus) - learn dataframe wrangling by doing in Jupyter notebooks with runnable examples"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "numpy>=1.26.0",
+    "pandas>=2.1.0",
+    "pyarrow>=15.0.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.6.0",
+    "ipytest>=0.14.0",
+    "pytest>=8.0.0",
+]
+
+[tool.uv]
+package = false

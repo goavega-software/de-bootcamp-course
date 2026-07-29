@@ -1,0 +1,20 @@
+[project]
+name = "python-bootcamp"
+version = "1.0.0"
+description = "Python Zero to Hero Bootcamp (Data Engineering focus) - learn the Python language, standard library and engineering craft by doing in Jupyter notebooks. pandas/NumPy live in the companion pandas-numpy-bootcamp."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "requests>=2.31.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.6.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.0.0",
+    "ipytest>=0.14.0",
+]
+
+[tool.uv]
+package = false
